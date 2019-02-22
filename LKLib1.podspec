@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LKLib1'
-  s.version          = '0.3.0'
+  s.version          = '1'
   s.summary          = '测试pods制作'
 
 # This description is used to generate tags and improve search results.
