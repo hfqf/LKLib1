@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "LKLIbTest1.h"
 
 FOUNDATION_EXPORT double LKLib1VersionNumber;
 FOUNDATION_EXPORT const unsigned char LKLib1VersionString[];
