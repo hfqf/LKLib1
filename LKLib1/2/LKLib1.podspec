@@ -30,8 +30,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LKLib1/Classes/**/*'
-  
+  s.source_files  = 'LKLib1/Classes/*.{h,m}'
+
+#  s.source_files = 'LKLib1/Classes/**/*'
+
   # s.resource_bundles = {
   #   'LKLib1' => ['LKLib1/Assets/*.png']
   # }
