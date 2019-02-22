@@ -1,0 +1,16 @@
+PODS:
+  - LKLib1 (0.1.0)
+
+DEPENDENCIES:
+  - LKLib1 (from `../`)
+
+EXTERNAL SOURCES:
+  LKLib1:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LKLib1: dbeb9bc8e28995c9a4426b25a0b13cb0ae9d4223
+
+PODFILE CHECKSUM: 1f02e9743775eea82f8a20411be3caa7e59b787c
+
+COCOAPODS: 1.6.0

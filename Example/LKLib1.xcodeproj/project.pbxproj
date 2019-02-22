@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		18FCAADC8C06C5D5D25D4E65 /* LKLib1.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LKLib1.podspec; path = ../LKLib1.podspec; sourceTree = "<group>"; };
+		18FCAADC8C06C5D5D25D4E65 /* LKLib1.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LKLib1.podspec; path = ../LKLib1.podspec; sourceTree = "<group>"; };
 		22EB0C0F61642E2C2C6769CA /* Pods-LKLib1_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKLib1_Tests.release.xcconfig"; path = "Target Support Files/Pods-LKLib1_Tests/Pods-LKLib1_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -27,9 +27,9 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		9DC1721541E134C6100CE0EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9DC1721541E134C6100CE0EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BD0CF1456597C700A9CB3067 /* Pods_LKLib1_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKLib1_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD8625A93C4FCF4DA4312D98 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BD8625A93C4FCF4DA4312D98 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E487C73E211F91240C7FE210 /* Pods-LKLib1_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKLib1_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LKLib1_Tests/Pods-LKLib1_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,7 +54,6 @@
 				E487C73E211F91240C7FE210 /* Pods-LKLib1_Tests.debug.xcconfig */,
 				22EB0C0F61642E2C2C6769CA /* Pods-LKLib1_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -151,6 +150,7 @@
 				ORGANIZATIONNAME = hfqf;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = BJW9F34F29;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -331,6 +331,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E487C73E211F91240C7FE210 /* Pods-LKLib1_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = BJW9F34F29;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -354,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 22EB0C0F61642E2C2C6769CA /* Pods-LKLib1_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = BJW9F34F29;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
