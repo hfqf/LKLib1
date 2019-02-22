@@ -1,6 +1,6 @@
 use_frameworks!
 target 'LKLib1_Tests' do
-  pod 'LKLib1', :path => '../'
+  pod 'LKLib1', :path => '../LKLib1.podspec'
   
   
 end

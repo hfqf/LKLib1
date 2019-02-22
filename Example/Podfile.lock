@@ -2,15 +2,15 @@ PODS:
   - LKLib1 (0.2.0)
 
 DEPENDENCIES:
-  - LKLib1 (from `../`)
+  - LKLib1 (from `../LKLib1.podspec`)
 
 EXTERNAL SOURCES:
   LKLib1:
-    :path: "../"
+    :path: "../LKLib1.podspec"
 
 SPEC CHECKSUMS:
   LKLib1: 877fcf7495950055e85213d4957ced91c569f437
 
-PODFILE CHECKSUM: 1f02e9743775eea82f8a20411be3caa7e59b787c
+PODFILE CHECKSUM: 107e7a8f762cf58370de7cab5472916514fe71e9
 
 COCOAPODS: 1.6.1
