@@ -1,6 +1,6 @@
 {
   "name": "LKLib1",
-  "version": "0.2.0",
+  "version": "1",
   "summary": "测试pods制作",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/hfqf/LKLib1",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/hfqf/LKLib1.git",
-    "tag": "0.2.0"
+    "tag": "1"
   },
   "platforms": {
     "ios": "8.0"

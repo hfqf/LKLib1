@@ -1,6 +1,5 @@
 # LKLib1
 
-[![CI Status](https://img.shields.io/travis/hfqf/LKLib1.svg?style=flat)](https://travis-ci.org/hfqf/LKLib1)
 [![Version](https://img.shields.io/cocoapods/v/LKLib1.svg?style=flat)](https://cocoapods.org/pods/LKLib1)
 [![License](https://img.shields.io/cocoapods/l/LKLib1.svg?style=flat)](https://cocoapods.org/pods/LKLib1)
 [![Platform](https://img.shields.io/cocoapods/p/LKLib1.svg?style=flat)](https://cocoapods.org/pods/LKLib1)
